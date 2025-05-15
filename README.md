@@ -84,7 +84,7 @@ You can load the generated build folder as a Chrome extension.
 
 To install the YouTube Full Browser Mode extension directly from the pre-built zip file, follow these steps:
 
-1. Download the `release/yt-full-browser-mode.zip` file and extract it to a folder on your computer.
+1. Download the `release/project.zip` file and extract it to a folder on your computer.
 2. Open your browser and go to the extensions page:
    - **Chrome**: `chrome://extensions/`
    - **Brave**: `brave://extensions/`
