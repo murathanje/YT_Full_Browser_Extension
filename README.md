@@ -32,7 +32,7 @@ This project is a Chrome extension that provides a true full browser experience 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/murathanje/YT_Full_Browser_Extension.git
 cd yt-full-extension
 ```
 
