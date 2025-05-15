@@ -2,6 +2,8 @@
 
 This project is a Chrome extension that provides a true full browser experience on YouTube, with advanced customization for the video bar and controls. Built with the Plasmo framework.
 
+![YouTube Full Browser Mode Extension Icon](assets/video.gif)
+
 ![YouTube Full Browser Mode Extension Icon](assets/icon.png)
 
 ## Features
