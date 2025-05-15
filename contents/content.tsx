@@ -111,8 +111,18 @@ const injectButton = () => {
 }
 
 const handleKeyDown = (event: KeyboardEvent) => {
+  // Ignore if typing in an input or textarea
+  const active = document.activeElement
+  if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || (active as HTMLElement).isContentEditable)) {
+    return
+  }
+  // 'i' key toggles full browser mode
+  if (event.key === 'i' || event.key === 'I') {
+    enhancedToggleFullBrowserMode()
+  }
+  // Optionally: Escape key to exit full browser mode
   if (event.key === "Escape" && isFullBrowserMode) {
-    // toggleFullBrowserMode()
+    enhancedToggleFullBrowserMode()
   }
 }
 

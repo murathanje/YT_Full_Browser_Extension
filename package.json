@@ -1,7 +1,7 @@
 {
   "name": "yt-full-browser-mode",
   "displayName": "YT Full Browser Mode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Youtube extension for full browser mode",
   "author": "Murathan Kagan",
   "scripts": {
