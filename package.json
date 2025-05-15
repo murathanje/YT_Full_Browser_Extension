@@ -1,6 +1,6 @@
 {
   "name": "yt-full-browser-mode",
-  "displayName": "Yt Full Browser Mode",
+  "displayName": "YT Full Browser Mode",
   "version": "0.1.1",
   "description": "Youtube extension for full browser mode",
   "author": "Murathan Kagan",
@@ -25,11 +25,11 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://www.youtube.com/*"
     ],
     "web_accessible_resources": [
       {
-        "resources": [ "assets/full.png" ],
+        "resources": [ "assets/full.png", "assets/icon.png", "assets/video.gif" ],
         "matches": [ "https://www.youtube.com/*" ]
       }
     ]
