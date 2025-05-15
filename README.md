@@ -1,8 +1,8 @@
-![YouTube Full Browser Mode Extension Icon](icon.png "YouTube Full Browser Mode Extension Icon")
-
 # YouTube Full Browser Mode Extension
 
 This project is a Chrome extension that provides a true full browser experience on YouTube, with advanced customization for the video bar and controls. Built with the Plasmo framework.
+
+![YouTube Full Browser Mode Extension Icon](assets/icon.png)
 
 ## Features
 
@@ -31,7 +31,7 @@ This project is a Chrome extension that provides a true full browser experience 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/murathanje/YT_Full_Browser_Extension
 cd yt-full-extension
 ```
 
