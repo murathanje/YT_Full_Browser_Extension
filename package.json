@@ -1,9 +1,9 @@
 {
-  "name": "yt-full-extension",
-  "displayName": "Yt full extension",
-  "version": "0.0.1",
-  "description": "Youtube extension",
-  "author": "murathanje",
+  "name": "yt-full-browser-mode",
+  "displayName": "Yt Full Browser Mode",
+  "version": "0.1.1",
+  "description": "Youtube extension for full browser mode",
+  "author": "Murathan Kagan",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
