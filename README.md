@@ -31,7 +31,7 @@ This project is a Chrome extension that provides a true full browser experience 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/murathanje/YT_Full_Browser_Extension
+git clone <repo-url>
 cd yt-full-extension
 ```
 
@@ -78,6 +78,22 @@ pnpm run build
 ```
 
 You can load the generated build folder as a Chrome extension.
+
+### 6. Loading the /release Zip File as a Browser Extension (Manual Installation)
+
+To install the YouTube Full Browser Mode extension directly from the pre-built zip file, follow these steps:
+
+1. Download the `release/yt-full-browser-mode.zip` file and extract it to a folder on your computer.
+2. Open your browser and go to the extensions page:
+   - **Chrome**: `chrome://extensions/`
+   - **Brave**: `brave://extensions/`
+   - **Edge**: `edge://extensions/`
+3. Enable "Developer mode" (or equivalent) in the top right corner (for Chrome, Brave, Edge).
+4. Click the "Load unpacked" button (for Chrome, Brave, Edge).
+5. Select the folder where you extracted the zip file (the folder containing the extension files).
+6. The extension will be loaded and ready to use on YouTube.
+
+> Note: To update to a new version, simply repeat these steps with the latest zip file.
 
 ## Usage
 
