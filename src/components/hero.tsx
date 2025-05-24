@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 import { Download, Github, Youtube } from "lucide-react";
 
 export default function Hero() {
@@ -31,9 +32,11 @@ export default function Hero() {
         </div>
         
         <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-xl shadow-2xl">
-          <img 
+          <Image 
             src="/assets/video.gif" 
             alt="YouTube Full Browser Mode Demo" 
+            width={1200}
+            height={675}
             className="w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>

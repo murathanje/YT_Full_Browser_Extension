@@ -4,6 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Play, KeyRound, MousePointer } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Demo() {
   return (
@@ -27,9 +28,11 @@ export default function Demo() {
           
           <TabsContent value="demo" className="mt-6">
             <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
-              <img 
+              <Image 
                 src="/assets/video.gif" 
                 alt="YouTube Full Browser Mode Demo" 
+                width={1200}
+                height={675}
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -42,7 +45,7 @@ export default function Demo() {
               </div>
             </div>
             <p className="text-center mt-8 text-muted-foreground text-lg">
-              The extension adds a button to YouTube's video player controls for easy toggling.
+              The extension adds a button to YouTube&apos;s video player controls for easy toggling.
             </p>
           </TabsContent>
           
@@ -73,10 +76,10 @@ export default function Demo() {
               </div>
               <ol className="space-y-5 pl-8 list-decimal text-lg">
                 <li className="pl-2">Open any video on YouTube</li>
-                <li className="pl-2">Click the "Full Browser Mode" button in the video controls</li>
+                <li className="pl-2">Click the &ldquo;Full Browser Mode&rdquo; button in the video controls</li>
                 <li className="pl-2">Enjoy distraction-free viewing with the video filling your entire browser window</li>
                 <li className="pl-2">Move your mouse over the video to see the controls, or away to hide them</li>
-                <li className="pl-2">Press 'i' or click the button again to toggle back to normal mode</li>
+                <li className="pl-2">Press &apos;i&apos; or click the button again to toggle back to normal mode</li>
               </ol>
             </div>
           </TabsContent>

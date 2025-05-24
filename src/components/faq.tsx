@@ -9,8 +9,8 @@ import {
 
 const faqs = [
   {
-    question: "How is this different from YouTube's native fullscreen?",
-    answer: "Unlike YouTube's native fullscreen which exits the browser window, this extension keeps you within the browser while providing a fullscreen-like experience. This means you can still access browser tabs, bookmarks, and other browser features while enjoying an immersive YouTube viewing experience."
+    question: "How is this different from YouTube&apos;s native fullscreen?",
+    answer: "Unlike YouTube&apos;s native fullscreen which exits the browser window, this extension keeps you within the browser while providing a fullscreen-like experience. This means you can still access browser tabs, bookmarks, and other browser features while enjoying an immersive YouTube viewing experience."
   },
   {
     question: "Which browsers are supported?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "Can I customize the appearance?",
-    answer: "Currently, the extension offers a single, carefully designed appearance. We're considering adding customization options in future updates."
+    answer: "Currently, the extension offers a single, carefully designed appearance. We&apos;re considering adding customization options in future updates."
   },
   {
     question: "Does this work with YouTube Premium?",
@@ -42,7 +42,7 @@ export default function FAQ() {
           Frequently Asked Questions
         </h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Got questions? We've got answers.
+          Got questions? We&apos;ve got answers.
         </p>
       </div>
       

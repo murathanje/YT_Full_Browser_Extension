@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Download, Menu, Youtube } from "lucide-react";
@@ -26,10 +27,12 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-gradient-to-br from-red-500 to-red-700 shadow-lg transition-transform duration-300 group-hover:scale-110">
-              <img 
+              <Image 
                 src="/assets/icon.png" 
                 alt="YT Full Browser Mode" 
-                className="w-7 h-7 object-contain" 
+                width={28}
+                height={28}
+                className="object-contain" 
               />
             </div>
             <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">YT Full Mode</span>
@@ -74,10 +77,11 @@ export default function Header() {
             <SheetContent>
               <div className="flex items-center gap-3 mt-8 mb-8">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
-                  <img 
+                  <Image 
                     src="/assets/icon.png" 
                     alt="YT Full Browser Mode" 
-                    className="w-7 h-7" 
+                    width={28}
+                    height={28}
                   />
                 </div>
                 <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">YT Full Mode</span>

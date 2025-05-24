@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Github } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -10,10 +11,12 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center gap-3 mb-8 md:mb-0">
           <div className="relative overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-gradient-to-br from-red-500/90 to-red-700/90">
-            <img 
+            <Image 
               src="/assets/icon.png" 
               alt="YT Full Browser Mode" 
-              className="w-7 h-7 object-contain" 
+              width={28}
+              height={28}
+              className="object-contain" 
             />
           </div>
           <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">YT Full Mode</span>
